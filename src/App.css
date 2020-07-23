@@ -1,0 +1,76 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins');
+@import url('http://fonts.googleapis.com/css?family=Oswald');
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+  background: #000046;  
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  
+  background: linear-gradient(to right, #1CB5E0, #000046); 
+
+}
+.container{
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:20px 20px
+}
+h2{
+  color:#1CB5E0;
+  font-family: Oswald;
+
+}
+h6{
+  color:#000046
+}
+.quizArea{
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+
+}
+.quizArea>*{
+  margin-bottom: 20px;
+}
+.optionsContainer{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.alert{
+  margin-bottom: 20px;
+}
+.scoreBarTxts{
+  display: flex;
+  justify-content: space-between;
+}
+.scoreBarTxts>p{
+  color:#fff;
+  font-family: Oswald;
+  font-size: 20px;
+}
+.startAgainBtn{
+  margin:20px auto
+}
+@media screen and (max-width: 770px) {
+  .container{
+    height: auto;
+  }
+  .quizArea{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  
+  .quizArea{
+    width: 100%;
+  }
+}
+
